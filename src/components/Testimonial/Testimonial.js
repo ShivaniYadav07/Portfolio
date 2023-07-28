@@ -1,7 +1,6 @@
 import React from "react";
 import StarParticles from "../Particle";
 import { Container, Row,Col, Card } from "react-bootstrap";
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 
 
 function Testimonial() {
@@ -28,6 +27,8 @@ function Testimonial() {
     </Row>
     <Row>
     <Card className="project-card-view" style={{ width: '22rem',marginRight: '22px'}}>
+    <Col xs={6} md={4}>
+        </Col>
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -40,6 +41,7 @@ function Testimonial() {
       </Card.Body>
     </Card>
     <Card className="project-card-view" style={{ width: '22rem', marginRight: '22px' }}>
+    <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -52,6 +54,7 @@ function Testimonial() {
       </Card.Body>
     </Card>
     <Card className="project-card-view" style={{ width: '22rem', marginRight: '22px' }}>
+    <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
