@@ -18,6 +18,7 @@
     "react-scripts": "^5.0.1",
     "react-tsparticles": "^2.11.0",
     "react-typewriter-effect": "^1.1.0",
+    "styled-components": "^6.0.5",
     "tsparticles": "^2.11.1",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4"
