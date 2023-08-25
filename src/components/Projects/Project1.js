@@ -6,6 +6,8 @@ import amaala from "../../Assets/Project/amaala 2.png";
 import textutils from "../../Assets/Project/textutils.PNG";
 import bg7 from "../../Assets/Project/bg7.png";
 import bct from "../../Assets/Project/bct.png";
+import mngmnt from "../../Assets/Project/mngmnt.png";
+import portfolio from "../../Assets/Project/portfolio.png";
 
 function Projects() {
   return (
@@ -21,10 +23,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <Project             
+            imgPath={portfolio}
+              isBlog={false}
+              title="Personal-Portfolio"
+              description="
+              A personal portfolio website built using React and various libraries is a powerful and dynamic platform for showcasing my skills, projects, and accomplishments."
+              ghLink="https://github.com/ShivaniYadav07"
+              demoLink="https://www.shivaniyadav.online/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <Project             
             imgPath={amaala}
               isBlog={false}
               title="AmaalaGroup"
-              description="AMAALA GROUP construction website made with HTML, CSS, JavaScript.JavaScript can add interactivity to the website, allowing visitors to engage with the content and providing a more immersive experience.PHP can provide server-side functionality for the website, allowing visitors to contact the construction company through a contact form, and to access dynamic content such as project updates, testimonials, and team member information."
+              description="AMAALA GROUP construction website made with HTML, CSS, JavaScript.JavaScript can add interactivity to the website, allowing visitors to engage with the content and providing a more immersive experience.PHP can provide server-side functionality for the website."
               ghLink="https://github.com/ShivaniYadav07"
               demoLink="https://www.amaalagroup.com/"
             />
@@ -35,7 +48,7 @@ function Projects() {
               imgPath={textutils}
               isBlog={false}
               title="TextUtils"
-              description="The Textutils app made with ReactJS is a web application that offers various text manipulation features. Users can input text into a text area and utilize different tools to modify and analyze the text. The app provides functionalities like converting text to uppercase, lowercase, and clearing the input text. The modified text is displayed in real-time below the text area. It serves as a practical tool for users who need to work with text content."
+              description="The Textutils app made with ReactJS is a web application that offers various text manipulation features. Users can input text into a text area and utilize different tools to modify and analyze the text."
               ghLink="https://github.com/ShivaniYadav07/TextUtils-REACT"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -58,9 +71,19 @@ function Projects() {
                imgPath={bct}
               isBlog={false}
               title="Breezestone C&T"
-              description="BreezeStone Construction and Technology is a web application built using JavaScript that offers innovative solutions and services in the construction industry. The application combines construction management with cutting-edge technology to streamline processes, enhance efficiency, and improve project outcomes. "
+              description="BreezeStone Construction and Technology is a web application built using JavaScript that offers innovative solutions and services in the construction industry. The application combines construction management with enhance efficiency, and improve project outcomes. "
               ghLink="https://github.com/ShivaniYadav07"
               demoLink="https://breezestone.shivaniyadav.online/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <Project
+               imgPath={mngmnt}
+              isBlog={false}
+              title="Contact-Management-App"
+              description="This is a contact management app built using ReactJS, JavaScript, TailwindCSS, React Router v6, and Redux. The app includes a dashboard with charts and maps that display COVID-19 data for different countries. API's used to show the data."
+              ghLink="https://github.com/ShivaniYadav07"
+              demoLink="https://project.shivaniyadav.online/"
             />
           </Col>
         </Row>
