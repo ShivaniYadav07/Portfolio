@@ -8,6 +8,7 @@ import bg7 from "../../Assets/Project/bg7.png";
 import bct from "../../Assets/Project/bct.png";
 import mngmnt from "../../Assets/Project/mngmnt.png";
 import portfolio from "../../Assets/Project/portfolio.png";
+import renting from "../../Assets/Project/go4renting.png"
 
 function Projects() {
   return (
@@ -84,6 +85,16 @@ function Projects() {
               description="This is a contact management app built using ReactJS, JavaScript, TailwindCSS, React Router v6, and Redux. The app includes a dashboard with charts and maps that display COVID-19 data for different countries. API's used to show the data."
               ghLink="https://github.com/ShivaniYadav07"
               demoLink="https://project.shivaniyadav.online/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <Project
+               imgPath={renting}
+              isBlog={false}
+              title="Go4Renting-Service"
+              description="Go4Renting's innovative approach powered by React and PHP is setting new standards for rental services, making life more convenient for users and providers alike.With its intuitive interface, real-time capabilities, and secure transactions, G04Renting is redefining the way people rent, making it easier than ever to find and secure the items they need."
+              ghLink="https://github.com/ShivaniYadav07"
+              demoLink="https://go4renting.com/"
             />
           </Col>
         </Row>
